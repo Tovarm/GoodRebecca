@@ -1,0 +1,105 @@
+
+body{	
+	color: black; 
+	background-image:url('../img/purty_wood.png');
+}
+
+.nav{
+	list-style-type: none;
+	margin: auto;
+	width:600px;
+	padding-top:50px;
+}
+
+.nav li{
+	display:inline-block;
+	margin:auto;
+}
+
+.nav a:link,.nav a:visited
+{
+	display:block;
+	width:120px;
+	font-weight:bold;
+	color:#FFFFFF;
+	background-color:#98bf21;
+	text-align:center;
+	padding:4px;
+	text-decoration:none;
+	text-transform:uppercase;
+}
+.nav a:hover,.nav a:active{
+	background-color:#7A991A;
+}
+
+.nav_menu{
+	padding-top:15px;
+	margin:auto;
+	padding-left:90px;
+}
+
+h1.menu_header{
+	font-family:Nothing You Could Do, sans-serif;
+	text-align: center;
+	width:400px;
+	margin:auto;
+	color:black;
+	padding-top:20px;
+}
+
+/*h2.menu_header{
+	font-family:Nothing You Could Do, sans-serif;
+	font-size:15px;
+	text-align: center;
+	width:200px;
+	margin:auto;
+	margin-bottom:-15px;
+	color:black;
+}*/
+
+.day{
+	font-family:Nothing You Could Do, sans-serif;
+	color:red;
+	font-weight:bold;
+}
+
+.meal{
+	font-family:Nothing You Could Do, sans-serif;
+	font-weight:bold;
+	font-size:25px;
+	color:#660099;
+	text-decoration: underline;
+}
+
+.column{
+	border: 1px solid black;
+	width:300px;
+	float:left;
+	list-style-type: none;
+	padding:15px;
+	background-image:url('../img/lined_paper.png');
+}
+
+.column ul{
+	list-style-type: none;
+	font-family:Nothing You Could Do, sans-serif;
+	margin-bottom:25px;
+	margin-left:-50px;
+	color:black;
+}
+
+.wrapper{
+	margin:auto;
+	width:1050px;
+}
+
+.tack{
+	width:50px;
+	height:50px;
+	float:right;
+	margin-right:140px;
+}
+
+.breakfast ul li{
+
+}

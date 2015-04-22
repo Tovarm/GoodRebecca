@@ -1,0 +1,22 @@
+div{
+    border-radius:5px;
+    }
+    
+.left{
+    background-color:#FAEBD7;
+    width:10%;
+    float:left;
+    }
+    
+.footer{
+    margin:auto;
+    font-family:Tahoma, sans-serif;
+    font-weight:bold;
+    color:#CD5C5C;
+    }
+
+.header{
+    margin:auto;
+    font-weight:bold;
+    
+    }

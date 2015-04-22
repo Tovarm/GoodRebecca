@@ -1,0 +1,87 @@
+.wrapper{
+	width:100%;
+	margin:auto;
+}
+
+body{
+	background-image:url('../img/formatting/knitting250px.png');
+}
+
+h1{
+	width:700px;
+	margin:auto;
+}
+
+.menu {
+	
+	
+	background-color: #98bf21;
+	border:1px solid #7A991A;
+	width:350px;
+	margin:auto;
+	
+}
+
+.menu li{
+	padding-right:25px;
+	padding-left:15px;
+	margin:0;
+	list-style-type: none;
+	display:inline;
+}
+
+.menu a{
+	text-decoration:none;
+	color:white;
+	text-transform: uppercase;
+	font-family:sans-serif;
+	font-weight:bold;
+	font-size:12px;
+}
+
+.menu a:hover{
+	color: #7A991A;
+	text-decoration: underline;
+}
+
+.favorites{
+	list-style-type: none;
+	margin-left:115px;
+}
+
+.favorites li{
+	display:inline-block;
+	box-shadow: 0 0 5px #000;
+	padding: 25px;
+	text-align: center;
+	border-top:1px solid;
+	margin:auto;
+}
+
+.favorites img{
+	height: 200px;
+	width: 250px;
+}
+
+.favorites li:hover {
+	background-image:url('../img/formatting/knitted-netting.png');	
+}
+
+.favorites a{
+	text-decoration: none;
+	font-size: 17px;
+	font-weight: bold;
+	font-family:arial, helvetica, sans-serif;
+}
+
+.favorites a:hover{
+		color: #4E6603
+}
+
+h3{
+	font-family: arial, helvetica, sans-serif;
+	margin-left:150px;
+	color:#800080;
+	margin-bottom:0px;
+}
+

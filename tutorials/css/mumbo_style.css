@@ -1,0 +1,205 @@
+body{
+	background-image:url('../img/wavy_background.png');
+	margin:0;
+}
+
+.wrapper{
+	width:1000px;
+	margin:auto;
+}
+
+
+header{
+	background:white;
+	border-top:10px solid #fb6938;
+	border-bottom:1px solid #e5e5e5;
+	overflow:hidden;
+}
+
+header img{
+	float:left;
+	margin-top:25px;
+	margin-left:175px;
+}
+
+#byline, #copyright{
+	float:left;
+	margin-left:25px;
+	margin-top:30px;
+	font-family:arial;
+	font-size:14px;
+	color:#7b7b7b;
+}
+
+.nav_bar{	
+	font-family:georgia;
+	font-size:20px;
+	list-style-type: none;
+	float:right;
+	margin-right:170px;
+}
+
+.nav_bar a{
+	text-decoration:none;
+	font-style:italic;
+	color:#f56737;
+}
+
+.nav_bar li{
+	display:inline;
+}
+
+.nav_bar li:after{
+	content: "|";
+	color:#e5e5e5;
+	padding:0 5px;
+}
+
+.nav_bar li:last-child:after{
+	content:'';
+}
+
+h1, h2, h3, h4{
+	margin-bottom:25px;
+	float:left;
+	font-family:georgia;
+	font-size:30px;
+	font-style:italic;
+	font-weight:normal;
+}
+
+.icons{
+	float:right;
+}
+
+.icons li{
+	list-style-type: none;
+	display:inline;
+}
+
+.banner{
+	text-align:center;
+	vertical-align: middle;
+	line-height:500px;
+	width:1000px;
+	height:400px;
+	margin:auto;
+	background-color:#aaefff;
+	border-bottom:10px solid #fc6a38;
+	overflow:hidden;
+}
+
+.bullets{
+	float:right;
+	margin-top:0;
+	font-family:sans-serif;
+	font-size:14px;
+	color:#ff6b39;
+}
+
+.bullets li{
+	margin-bottom:5px;
+}
+
+.content{
+	width:650px;
+	float:left;	
+	clear:both;
+	font-family:arial;
+	font-size:14px;
+	color:#7b7b7b;
+	margin-top:0;
+	line-height:25px;
+}
+
+.shorts_orange{
+	font-family:sans-serif;
+	font-size:14px;
+	color:#ff6b39;
+}
+
+#h3, #h4{
+	width:1000px;
+	border-top:#ececec 5px solid;
+	padding-top:50px;
+	
+}
+
+.tiles{
+	width:1250px;
+	margin-left:-40px;
+}
+
+.tiles img{
+	margin-bottom:-5px;
+	margin-top:20px;
+	width:320px;	
+	border-bottom:10px solid #fc6a38;
+}
+
+.tiles li{
+	display:inline;
+	list-style-type: none;
+	float:left;	
+	margin-right:20px;
+	margin-bottom:25px;
+	font-family:arial;
+	font-size:14px;
+	text-align:center;
+	color:#7b7b7b;
+	line-height:25px;
+}	
+
+.caption_purus{
+	font-family:georgia;
+	font-style:italic;
+	font-weight:bold;
+	font-size:20px;
+	color:black;
+}
+
+.footer{
+	overflow:hidden;
+	clear:both;
+	background:white;
+	border-top: 1px solid #e5e5e5	
+}
+
+.nav_footer{
+	float:right;
+}
+
+.nav_footer a{
+	font-family:arial;
+	font-style:normal;
+	font-size:14px;
+}
+
+#copyright{
+	clear:both;
+}
+/*--------------------------- mumbo 2 --------------------------------------*/
+.caption{
+	font-family:georgia;
+	font-size:30px;
+	font-style:italic;
+	font-weight:normal;
+	color:black;
+}
+
+.tiles_vertical{
+	width:900px;
+}
+
+.tiles_vertical img{
+	float:left;
+	width: 300px;
+	height:215px;
+	margin-right:25px;
+	padding-top:25px;
+}
+
+.content_vertical{
+	text-align:left;
+	padding-top:50px;
+}

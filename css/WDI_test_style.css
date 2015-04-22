@@ -1,0 +1,50 @@
+body{
+	background-image: url('http://i.imgur.com/rWL0ysd.jpg?1');
+	background-size: cover;
+}
+.nav_bar{
+
+}
+.container{
+	background-color: white;
+}
+h1{
+	text-align: center;
+	font-family: 'Rock Salt';
+	font-size: 25px;
+	color: #E68A00;
+	float: left;
+	padding: 50px 25px 25px 25px; 
+}
+
+.intro{
+	padding: 15px 5px 25px 25px;
+	font-family: sans-serif;
+	text-align: justify;
+	line-height: 1.25;
+	/*margin-top: 9px;*/
+}
+
+.selfPhoto{
+	float: right;
+	max-width: 23%;
+	border: 1px solid black;
+	border-radius: 200px;
+	margin-left: 25px;
+}
+.contact{
+	background-color: white;
+	font-family: sans-serif;
+	text-align: center;
+	margin-top: 390px;
+}
+a{
+	text-decoration: none;
+	font-family: 'Give You Glory';
+	font-size: 	20px;
+	color: #E68A00;
+	line-height: 1.25;
+}
+a:hover{
+	color: red;
+};
